@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h5>Sign Up</h5>
+    </div>
+     <fieldset class="margin">
+      <h6>Filter ui cards via their profession.</h6>
+      <select name="dropdown" id="dropdown">
+        <option value="developer">Developer</option>
+        <option value="profession">Profession</option>
+        <option value="admin">Admin</option>
+        </select>
+        <br>
+        <div id="result"></div>
+        <br>
+        <button id="btn">Filter</button>
+        <div class="second">
+            <h5>Add a new User</h5>
+            <div class="imp">
+            <div class="name">
+                <label for="fname" id="name">Enter Name</label>
+                <div><input type="text" ></div>
+            </div>
+            <div class="pname">
+                <label for="pname">Enter Profession</label>
+                <div><input type="text"  id="pname"></div>
+            </div>
+            <div class="aname">
+                <label for="aname">Enter Age</label>
+                <div><input type="number" id="aname " ></div>
+            </div>
+        </div>
+        <button id="ad">Add User</button>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th id="tname">Name</th>
+                    <th id="tpname">Profession</th>
+                    <th id="taname">Age</th>
+                </tr>
+            </thead>
+            <tbody class="cart-body">
+                 </tbody>
+        </table>
+    </div>
+
+     </fieldset>
+    <script src="./script.js"></script>
+</body>
+</html>

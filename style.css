@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+h5{
+    color: blue;
+    margin:20px;
+}
+.margin{
+    color: blueviolet;
+    margin:20px;
+}
+h6{
+    margin:20px;
+    color: white;
+}
+.imp{
+    display: flex;
+    gap:25px;
+    margin:25px;
+}
+#dropdown{
+    margin:25px;
+}
+button{
+    margin:25px;
+}
